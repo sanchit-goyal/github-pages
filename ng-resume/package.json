@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild":"cd ../sanchit-goyal.github.io && git init && git remote add sanchit-goyal.github.io https://github.com/sanchit-goyal/sanchit-goyal.github.io.git && git add . && git commit -m \"ng-resume\" && git push --set-upstream sanchit-goyal.github.io master --force",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
